@@ -78,10 +78,10 @@
 
         FUNCTION {
             bindings = <
-&kp LA(LC(LG(UP_ARROW)))     &trans  &trans  &trans  &trans                                    &kp LG(SPACE)  &caps_word    &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LC(UP_ARROW)
-&kp LA(LC(LG(DOWN_ARROW)))   &trans  &trans  &trans  &trans  &trans      &kp LS(LG(NUMBER_4))  &kp F6         &kp F7        &kp F8                &kp F9                 &kp LG(M)
-&kp LA(LC(LG(RIGHT_ARROW)))  &trans  &trans  &trans  &trans  &trans      &bt BT_SEL 0          &bt BT_SEL 1   &bt BT_SEL 2  &trans                &trans                 &kp F11
-&kp LA(LC(LG(LEFT_ARROW)))   &trans  &trans  &trans  &trans  &trans      &trans                &trans                                                                    &kp LA(LG(SPACE))
+&kp LA(LC(LG(UP_ARROW)))     &trans  &trans  &trans  &trans                                    &kp LANG7     &kp LANGUAGE_4  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LC(UP_ARROW)
+&kp LA(LC(LG(DOWN_ARROW)))   &trans  &trans  &trans  &trans  &trans      &kp LS(LG(NUMBER_4))  &kp F6        &kp F7          &kp F8                &kp F9                 &kp LG(M)
+&kp LA(LC(LG(RIGHT_ARROW)))  &trans  &trans  &trans  &trans  &trans      &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2    &trans                &trans                 &kp F11
+&kp LA(LC(LG(LEFT_ARROW)))   &trans  &trans  &trans  &trans  &trans      &trans                &trans                                                                     &kp LA(LG(SPACE))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
